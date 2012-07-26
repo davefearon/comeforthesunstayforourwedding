@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Come For The Sun, Stay For Our Wedding</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
+	<!-- Le styles -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/skrollr.css" rel="stylesheet">
+	<style>
+		* {
+			/* font-family: 'Abel', sans-serif; */
+		}
+		body {
+			padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+		}
+	</style>
+	<!--<link href="css/bootstrap-responsive.css" rel="stylesheet">-->
+	<link href="css/style.css" rel="stylesheet">
+</head>
+<body id="" class="">
+	<header id="header">
+		<div class="navbar navbar-fixed-top">
+    	<div class="navbar-inner">
+    		<div class="container">
+    			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+    				<span class="icon-bar"></span>
+    				<span class="icon-bar"></span>
+    				<span class="icon-bar"></span>
+    			</a>
+    			<a class="brand" href="#">Fearon + Klimava = <i class="icon-heart icon-white"></i></a>
+    			<div class="nav-collapse">
+    				
+    			</div>
+    		</div>
+    	</div>
+    </div>
+	</header>
+	
+	<div class="container">
+		
+		<div id="main" role="main">
+			
+			<section id="welcome" data-offset="0">
+			  Dave and Polina are getting married...more details to follow! But you should probably start saving your pennies now and don't bother making any plans for June 2013...especially around the week of June 2nd to the 9th...unless of course those plans are to attend our awesome wedding!
+			</section>
+			
+			<section id="ourstory" data-offset="550">
+			  <img data-0="bottom: 50%; left: -100%" data-550="bottom: 5%; left: 14.5%;" data-1100="bottom: 5%; left: 14.5%;" data-1650="bottom: 50%; left: -100%" class="clouds" src="img/ourstory_clouds.png" />
+			  <img data-0="bottom: 100%; left: 200%" data-550="bottom: 5%; left: 14.5%;" data-1100="bottom: 5%; left: 14.5%;" data-1650="bottom: 100%; left: 200%" class="trees" src="img/ourstory_trees.png" />
+			  <img data-0="bottom: 0%; left: 100%" data-550="bottom: 5%; left: 14.5%;" data-1100="bottom: 5%; left: 14.5%;" data-1650="bottom: 0%; left: 100%" class="building" src="img/ourstory_building.png" />
+			  <img data-0="bottom: 0%; left: -100%" data-550="bottom: 5%; left: 14.5%;" data-1100="bottom: 5%; left: 14.5%;" data-1650="bottom: 0%; left: -100%" class="bushes" src="img/ourstory_bushes.png" />
+			  <img data-0="bottom: -100%; left: 65.5%" data-500="bottom: 200%; left: 65.5%" data-550="bottom: 5%; left: 14.5%;" data-1100="bottom: 5%; left: 14.5%;" data-1650="bottom: -100%; left: 65.5%" class="lightpost" src="img/ourstory_lightpost.png" />
+			</section>
+			
+			<section id="thebigday" data-offset="1100">
+			  the big day
+			</section>
+			
+			<section id="gifts" data-offset="1650">
+			  gifts
+			</section>
+			
+			<section id="contact" data-offset="2200">
+			  contact
+			</section>
+			
+			<section id="rsvp" data-offset="2750">
+			  <img data-0="bottom: -105%; left: 21%;" data-2200="bottom: -105%; left: 21%;" data-2700="bottom: 5%; left: 21%;" class="mailbox" src="img/rsvp_mailbox.png" />
+			  <img data-0="bottom: 57%; right: 31%; opactiy: 0; height: 0px; width: 0px;" data-2700="opacity: 0; height: 0px; width: 0px; bottom: 57%; right: 31%;" data-2750="bottom: 5%; right: 21%; opacity: 1; height: 550px; width: 768px;" class="letters" src="img/rsvp_letters.png" />
+			</section>
+			
+		</div>
+		<!--
+		<hr>
+		<footer id="footer">
+			footer
+		</footer>
+		-->
+	</div> <!-- /container -->
+
+	<!-- Le javascript
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/skrollr.js"></script>
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="js/skrollr.ie.js"></script>
+	<![endif]-->
+	<script type="text/javascript">
+	  //var prevOffset = 0;
+		$(document).ready(function() {
+		  //$('#main').height(window.innerHeight);
+		  
+		  $(window).scroll(currentScroll);
+		  
+		  
+		  $('section').each(function(i,el){
+		    var top = parseInt($(this).attr('data-offset'));
+		    //top += 42;
+		    //$(this).css({'top' : top + 'px'});
+		  });
+		});
+		var s = skrollr.init();
+		
+		function currentScroll() {
+		  var yOffset = window.pageYOffset;
+		  console.log(yOffset);
+		  //$('section').each(function(i,el){
+		  //  //var h = $(this).height();
+		  //  if( yOffset > prevOffset ) {
+		  //    var curTop = parseInt($(this).css('top').replace('px',''));
+		  //    if( curTop <= 42 ) {
+  		//      $(this).css({'top' : (42 + yOffset) + 'px'});
+  		//    } else {
+  		//      $(this).css({'top' : curTop - ( curTop * ( yOffset / document.height ) ) + 'px'});
+  		//    }
+		  //  } else {
+		  //    var curTop = parseInt($(this).css('top').replace('px',''));
+		  //    if( curTop <= 42 ) {
+  		//      $(this).css({'top' : '42px'});
+  		//    } else {
+  		//      $(this).css({'top' : curTop + ( curTop * ( yOffset / document.height ) ) + 'px'});
+  		//    }
+		  //  }
+		  //});
+		  //prevOffset = yOffset;
+		}
+	</script>
+</body>
+</html>
