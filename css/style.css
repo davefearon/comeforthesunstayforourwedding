@@ -66,7 +66,20 @@ section:nth-child(even) {
 
 #thebigday {
   z-index: 7;
+	/*height:550px;
+	background: url('../img/thebigday_template.png') no-repeat scroll 50% 0;*/
 }
+#thebigday img {
+	/*position:absolute;
+	bottom:5%;
+	left:3.7%;*/
+}
+clouds
+tree
+airport
+car
+plane
+
 #gifts {
   z-index: 8;
 }
