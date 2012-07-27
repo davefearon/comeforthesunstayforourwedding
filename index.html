@@ -49,11 +49,11 @@
 			</section>
 			
 			<section id="ourstory" data-offset="550">
-			  <img data-0="bottom: 50%; left: -100%" data-550="bottom: 5%; left: 14.5%;" data-1100="bottom: 5%; left: 14.5%;" data-1650="bottom: 50%; left: -100%" class="clouds" src="img/ourstory_clouds.png" />
-			  <img data-0="bottom: 100%; left: 200%" data-550="bottom: 5%; left: 14.5%;" data-1100="bottom: 5%; left: 14.5%;" data-1650="bottom: 100%; left: 200%" class="trees" src="img/ourstory_trees.png" />
-			  <img data-0="bottom: 0%; left: 100%" data-550="bottom: 5%; left: 14.5%;" data-1100="bottom: 5%; left: 14.5%;" data-1650="bottom: 0%; left: 100%" class="building" src="img/ourstory_building.png" />
-			  <img data-0="bottom: 0%; left: -100%" data-550="bottom: 5%; left: 14.5%;" data-1100="bottom: 5%; left: 14.5%;" data-1650="bottom: 0%; left: -100%" class="bushes" src="img/ourstory_bushes.png" />
-			  <img data-0="bottom: -100%; left: 65.5%" data-500="bottom: 200%; left: 65.5%" data-550="bottom: 5%; left: 14.5%;" data-1100="bottom: 5%; left: 14.5%;" data-1650="bottom: -100%; left: 65.5%" class="lightpost" src="img/ourstory_lightpost.png" />
+			  <img data-0="bottom: 50%; left: -100%" data-550="bottom: 5%; left: 14.5%;" data-1650="bottom: 5%; left: 14.5%;" data-2200="bottom: 50%; left: -100%" class="clouds" src="img/ourstory_clouds.png" />
+			  <img data-0="bottom: 100%; left: 200%" data-550="bottom: 5%; left: 14.5%;" data-1650="bottom: 5%; left: 14.5%;" data-2200="bottom: 100%; left: 200%" class="trees" src="img/ourstory_trees.png" />
+			  <img data-0="bottom: 0%; left: 100%" data-550="bottom: 5%; left: 14.5%;" data-1650="bottom: 5%; left: 14.5%;" data-2200="bottom: 0%; left: 100%" class="building" src="img/ourstory_building.png" />
+			  <img data-0="bottom: 0%; left: -100%" data-550="bottom: 5%; left: 14.5%;" data-1650="bottom: 5%; left: 14.5%;" data-2200="bottom: 0%; left: -100%" class="bushes" src="img/ourstory_bushes.png" />
+			  <img data-0="bottom: -100%; left: 65.5%" data-500="bottom: 200%; left: 65.5%" data-550="bottom: 5%; left: 14.5%;" data-1650="bottom: 5%; left: 14.5%;" data-2200="bottom: -100%; left: 65.5%" class="lightpost" src="img/ourstory_lightpost.png" />
 			</section>
 			
 			<section id="thebigday" data-offset="1100">
@@ -92,43 +92,13 @@
 	<script type="text/javascript" src="js/skrollr.ie.js"></script>
 	<![endif]-->
 	<script type="text/javascript">
-	  //var prevOffset = 0;
 		$(document).ready(function() {
-		  //$('#main').height(window.innerHeight);
-		  
 		  $(window).scroll(currentScroll);
-		  
-		  
-		  $('section').each(function(i,el){
-		    var top = parseInt($(this).attr('data-offset'));
-		    //top += 42;
-		    //$(this).css({'top' : top + 'px'});
-		  });
 		});
 		var s = skrollr.init();
 		
 		function currentScroll() {
-		  var yOffset = window.pageYOffset;
-		  console.log(yOffset);
-		  //$('section').each(function(i,el){
-		  //  //var h = $(this).height();
-		  //  if( yOffset > prevOffset ) {
-		  //    var curTop = parseInt($(this).css('top').replace('px',''));
-		  //    if( curTop <= 42 ) {
-  		//      $(this).css({'top' : (42 + yOffset) + 'px'});
-  		//    } else {
-  		//      $(this).css({'top' : curTop - ( curTop * ( yOffset / document.height ) ) + 'px'});
-  		//    }
-		  //  } else {
-		  //    var curTop = parseInt($(this).css('top').replace('px',''));
-		  //    if( curTop <= 42 ) {
-  		//      $(this).css({'top' : '42px'});
-  		//    } else {
-  		//      $(this).css({'top' : curTop + ( curTop * ( yOffset / document.height ) ) + 'px'});
-  		//    }
-		  //  }
-		  //});
-		  //prevOffset = yOffset;
+		  console.log(window.pageYOffset);
 		}
 	</script>
 </body>
