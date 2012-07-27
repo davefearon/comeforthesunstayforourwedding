@@ -53,15 +53,12 @@ section:nth-child(even) {
 }
 #ourstory img {
   /* position:absolute; *//
-  bottom: 100%;
-  left: 214.5%;
-  /*bottom: 5%; left: 14.5%;*/
 }
-#ourstory img.clouds {}
-#ourstory img.trees {}
-#ourstory img.building {}
-#ourstory img.bushes {}
-#ourstory img.lightpost {}
+#ourstory img.clouds { bottom: 50%; left: -100%; }
+#ourstory img.trees { bottom: 100%; left: 200%; }
+#ourstory img.building { bottom: 0%; left: 100%; }
+#ourstory img.bushes { bottom: 0%; left: -100%; }
+#ourstory img.lightpost { bottom: -100%; left: 65.5%; }
 
 
 #thebigday {
@@ -70,16 +67,10 @@ section:nth-child(even) {
 	background: url('../img/thebigday_template.png') no-repeat scroll 50% 0;*/
 }
 #thebigday img {
-	/*position:absolute;
-	bottom:5%;
-	left:3.7%;*/
+	/*position:absolute;*/
+	bottom: 5%;
+	left: -200%;
 }
-clouds
-tree
-airport
-car
-plane
-
 #gifts {
   z-index: 8;
 }
@@ -92,7 +83,7 @@ plane
 }
 #rsvp img {
   /*position:absolute;*/
-  bottom: 5%;
+  bottom: -100%;
 }
 #rsvp img.mailbox { left: 21%; }
 #rsvp img.letters { right: 0%; }
