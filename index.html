@@ -41,6 +41,7 @@
 	</header>
 	
 	<div class="container">
+	  <div id="scrollPos"></div>
 		
 		<div id="main" role="main">
 			
@@ -103,7 +104,9 @@
 		var s = skrollr.init();
 		
 		function currentScroll() {
-		  console.log(window.pageYOffset);
+		  var scrollPos = window.pageYOffset;
+		  $('#scrollPos').text(scrollPos);
+		  console.log(scrollPos);
 		}
 	</script>
 </body>

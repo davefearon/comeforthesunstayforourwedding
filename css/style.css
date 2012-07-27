@@ -34,6 +34,12 @@ html, body {
 .container {
   width: 100%;
 }
+#scrollPos {
+	position: fixed;
+	top: 150px;
+	left: 10px;
+	z-index:9999;
+}
 section {
   /* height: 550px; */
   width: 100%;
