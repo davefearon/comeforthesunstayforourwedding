@@ -1,89 +1,64 @@
+@font-face {
+	font-family: 'alluraregular';
+	src: url('../fonts/allura-regular-webfont.eot');
+	src: url('../fonts/allura-regular-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/allura-regular-webfont.woff') format('woff'),
+			 url('../fonts/allura-regular-webfont.ttf') format('truetype'),
+			 url('../fonts/allura-regular-webfont.svg#alluraregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 html, body {
-  background: url('../img/lightpaperfibers.png') repeat fixed 0 0;
+  /* background: url('../img/lightpaperfibers.png') repeat fixed 0 0;
   /*background: rgb(255, 0, 128);*/
   font-size: 15px;
   color: black;
 }
 
 .navbar {
-	color:black;
+	color: #AAAAAA;
+	height: 70px;
+	line-height: 50px;
+	font-family: 'alluraregular', serif;
+}
+.navbar .nav {
+	height: 70px;
 }
 .navbar .nav > li {
+	line-height: 50px;
 }
 .navbar .nav > li > a {
-	border-top: 3px solid white;
-	color:black;
-	text-shadow:0 0 0 rgba(0,0,0,0);
-	position:relative;
-	border-bottom:1px solid white;
-	background-color:white;
-	z-index:90;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	color: #aaaaaa;
+	font-size: 26px;
 }
 .navbar .nav > li > a:hover {
-	border-top: 3px solid #F15A23;
-	color:#F15A23;
-	border-bottom:1px solid #F15A23;
-	background-color:white;
+	color: #1ea5ed;
 }
 .navbar .nav > li > a:hover::after {
-	background:#F15A23;
-	bottom:-2.5px;
-	content:'';
-	left:50%;
-	display:block;
-	height:5px;
-	margin:0 0 0 -2.5px;
-	-webkit-transform: rotate(45deg);
-	-moz-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
-	-o-transform: rotate(45deg);
-	transform: rotate(45deg);
-	position:absolute;
-	width:5px;
-	line-height:0;
+	
 }
 .navbar-inner {
-  min-height: 40px;
-  padding-left: 20px;
-  padding-right: 20px;
-	background-color:white;
-	background-image:none;
-/*
-  background-color: #2c2c2c;
-  background-image: -moz-linear-gradient(top, #2061e6, #003db9);
-  background-image: -ms-linear-gradient(top, #2061e6, #003db9);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#2061e6), to(#003db9));
-  background-image: -webkit-linear-gradient(top, #2061e6, #003db9);
-  background-image: -o-linear-gradient(top, #2061e6, #003db9);
-  background-image: linear-gradient(top, #2061e6, #003db9);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2061e6', endColorstr='#003db9', GradientType=0);
-*/
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-/*
-  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
-  -moz-box-shadow: 0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
-  box-shadow: 0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
-*/
-	-webkit-box-shadow: 0 0px 0px rgba(0,0,0,.25), inset 0 0px 0 rgba(0,0,0,.1);
-	-moz-box-shadow: 0 0px 0px rgba(0,0,0,.25), inset 0 0px 0 rgba(0,0,0,.1);
-	box-shadow: 0 0px 0px rgba(0,0,0,.25), inset 0 0px 0 rgba(0,0,0,.1);
+  background-color: #FFFFFF;
+	background-image: none;
+	filter: none;
+	height: 70px;
+}
+.navbar .container {
+	height: 70px;
 }
 .navbar .brand {
-  color: black;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	color: #e0a6f8;
+	font-size: 45px;
 }
 
 #main {
-  
+  position: relative;
 }
 .container {
   /* width: 100%; */
+	width: 1020px;
+	margin: 0 auto;
 }
 #scrollPos {
 	position: fixed;
@@ -92,55 +67,13 @@ html, body {
 	z-index:9999;
 }
 section {
-  /* height: 550px; */
-  /* width: 100%; */
-  background: url('../img/lightpaperfibers.png') repeat scroll 0 0;
+  /*
+	height: 683px;
+  width: 1020px;
   position:relative;
+	margin: 0 auto;
+	*/
 }
 section:nth-child(even) {
-  
+	
 }
-
-#welcome {
-  z-index: 5;
-}
-#ourstory {
-  z-index: 6;
-  /* background: url('../img/ourstory_template.png') no-repeat scroll 50% 0; */
-}
-#ourstory img {
-  /* position:absolute; *//
-}
-#ourstory img.clouds { bottom: 50%; left: -100%; }
-#ourstory img.trees { bottom: 100%; left: 200%; }
-#ourstory img.building { bottom: 0%; left: 100%; }
-#ourstory img.bushes { bottom: 0%; left: -100%; }
-#ourstory img.lightpost { bottom: -100%; left: 65.5%; }
-
-
-#thebigday {
-  z-index: 7;
-	/*height:550px;
-	background: url('../img/thebigday_template.png') no-repeat scroll 50% 0;*/
-}
-#thebigday img {
-	/*position:absolute;*/
-	bottom: 5%;
-	left: -200%;
-}
-#gifts {
-  z-index: 8;
-}
-#contact {
-  z-index: 9;
-}
-#rsvp {
-  z-index: 10;
-  /* background: url('../img/rsvp_template.png') no-repeat scroll 50% 0; */
-}
-#rsvp img {
-  /*position:absolute;*/
-  bottom: -100%;
-}
-#rsvp img.mailbox { left: 21%; }
-#rsvp img.letters { right: 0%; }
