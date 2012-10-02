@@ -1,0 +1,21 @@
+<?php
+$langs = array(
+  'title' => '',
+  'brand' => '',
+  'nav_OurStory' => '',
+  'nav_Travel' => '',
+  'nav_Destination' => '',
+  'nav_Gifts' => '',
+  'nav_Contact' => '',
+  'welcomeMessage' => '',
+  'ourstoryTitle' => '',
+  'ourstoryMessage' => '',
+  'travelTitle' => '',
+  'travelMessage' => '',
+  'destinationTitle' => '',
+  'destinationMessage' => '',
+  'giftsTitle' => '',
+  'giftsMessage' => '',
+  'contactTitle' => '',
+  'contactMessage' => '',
+);

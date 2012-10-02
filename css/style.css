@@ -20,7 +20,6 @@ html, body {
 	color: #AAAAAA;
 	height: 70px;
 	line-height: 50px;
-	font-family: 'alluraregular', serif;
 }
 .navbar .nav {
 	height: 70px;
@@ -30,13 +29,16 @@ html, body {
 }
 .navbar .nav > li > a {
 	color: #aaaaaa;
-	font-size: 26px;
+	font-size: 16px;
 }
 .navbar .nav > li > a:hover {
 	color: #1ea5ed;
 }
 .navbar .nav > li > a:hover::after {
 	
+}
+.navbar .nav.pull-right > li > a:hover {
+	background:whitesmoke;
 }
 .navbar-inner {
   background-color: #FFFFFF;
@@ -50,6 +52,8 @@ html, body {
 .navbar .brand {
 	color: #e0a6f8;
 	font-size: 45px;
+	font-family: 'alluraregular', serif;
+	margin-right: 20px;
 }
 
 #main {
@@ -60,20 +64,25 @@ html, body {
 	width: 1020px;
 	margin: 0 auto;
 }
+
+.copy {
+	font-size: 15px;
+	background: transparent;
+	color: #545454;
+	width: 300px;
+}
+.copy .pageTitle {
+	font-size: 45px;
+	color: #0eacb9;
+	display: block;
+	border-bottom: 1px solid #0eacb9;
+	font-family: 'alluraregular', serif;
+	padding-bottom: 8px;
+}
+
 #scrollPos {
 	position: fixed;
 	top: 150px;
 	left: 10px;
 	z-index:9999;
-}
-section {
-  /*
-	height: 683px;
-  width: 1020px;
-  position:relative;
-	margin: 0 auto;
-	*/
-}
-section:nth-child(even) {
-	
 }
