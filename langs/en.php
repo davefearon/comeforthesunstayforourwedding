@@ -2,6 +2,7 @@
 // =========================================================
 // Generic
 // =========================================================
+$langs['language'] = 'en';
 $langs['title'] = <<<TEXT
 Come For The Sun, Stay For Our Wedding
 TEXT;
@@ -56,11 +57,11 @@ Travel with us!
 TEXT;
 
 $langs['travelMessage'] = <<<TEXT
-<b>Dates:</b> June 2, 2013 - June 9, 2013<br><br>
-<b>Departure:</b> Ottawa, ON, Canada Macdonald-Cartier International Airport<br><br>
-<b>Destination:</b> Couples Sans Souci, Ocho Rios, Jamaica<br><br>
-<b>Travel Agent:</b> Sue Fearon<br><br>
-Integer quam orci, dictum sed sagittis a, dapibus in ante. Nullam consectetur molestie sagittis. Sed suscipit metus vitae diam ullamcorper ultricies. Morbi sit amet libero ac nunc mattis luctus. Ut id ipsum dolor, sed dictum nibh. Praesent ut eros neque. Aenean aliquet mattis ullamcorper. Vivamus laoreet, nisl in viverra ultrices, augue turpis tincidunt quam, at pulvinar neque felis et dolor.
+<b>Dates:</b> June 2, 2013 - June 9, 2013<br>
+<b>Departure:</b> Ottawa, ON, Canada Macdonald-Cartier International Airport<br>
+<b>Destination:</b> Couples Sans Souci, Ocho Rios, Jamaica<br>
+<b>Travel Agent:</b> Sue Fearon<br>
+<b>Itinerary:</b> Click Here
 TEXT;
 
 // =========================================================
@@ -72,26 +73,25 @@ TEXT;
 
 $langs['destinationMessage'] = <<<TEXT
 <b>Where:</b><br>
-Couples Sans Souci, Ocho Rios, Jamaica<br><br>
+Couples Sans Souci, Ocho Rios, Jamaica<br>
 <b>When:</b><br>
 April 1: Final deadline for ticket payment<br>
 June 2: Departure for Ocho Rios<br>
-June 6: Wedding day<br><br>
+June 6: Wedding day<br>
 
 <b>Room Options:</b><br>
-Deluxe Ocean Suite<br>
-$1641.89 CAD per person<br>
-Spacious rooms with covered seating area and captivating views of the Caribbean Sea<br><br>
+Deluxe Ocean Suite - $1641.89 CAD per person<br>
+Spacious rooms with covered seating area and captivating views of the Caribbean Sea<br>
 
-Deluxe Ocean Verandah Suite<br>
-$1656.89 CAD per person<br>
-Spacious master bedroom suite boasting a large balcony overlooking Caribbean Sea<br><br>
+Deluxe Ocean Verandah Suite - $1656.89 CAD per person<br>
+Spacious master bedroom suite boasting a large balcony overlooking Caribbean Sea<br>
 
-One Bedroom Beachfront Suite<br>
-$1684.89 CAD per person<br>
-Enjoy a private balcony or patio only steps to the sand and sea. Bathrooms include large Jacuzzi tubs, walk-in shower, and a separate living room.<br><br>
+One Bedroom Beachfront Suite - $1684.89 CAD per person<br>
+Enjoy a private balcony or patio only steps to the sand and sea. Bathrooms include large Jacuzzi tubs, walk-in shower, and a separate living room.<br>
 
-Please contact Dave and Polina or Sue Fearon with any questions or concerns.
+Please contact Dave and Polina or Sue Fearon with any questions or concerns.<br>
+
+Click here to learn more about the hotel and the inclusions.
 TEXT;
 
 // =========================================================
@@ -102,8 +102,9 @@ Gifts
 TEXT;
 
 $langs['giftsMessage'] = <<<TEXT
-Morbi sit amet libero ac nunc mattis luctus. Ut id ipsum dolor, sed dictum nibh. Praesent ut eros neque. Aenean aliquet mattis ullamcorper. Vivamus laoreet, nisl in viverra ultrices, augue turpis tincidunt quam, at felis et dolor.<br><br>
-Nam tristique, sem ac sagittis feugiat, elit mauris feugiat dolor, laoreet viverra risus metus a leo. Phasellus ornare cursus sodales. Nulla facilisi. Mauris ac tellus et ipsum lobortis sodales eu vitae mi. Praesent feugiat suscipit est, vitae pellentesque quam blandit ac. Nulla facilisi. Fusce quis iaculis ipsum lorem porta elementum.
+We're really excited for everyone to come down for our wedding in Jamaica and seeing all of you there is the best gift of all!<br><br>
+We did register at <b>The Bay</b> and at <b>Zone Maison</b> (the Ottawa location), in case you feel that you simply must get us something but please remember that <b>gifts are not necessary!</b><br><br>
+Thank you!
 TEXT;
 
 // =========================================================
@@ -117,7 +118,7 @@ $langs['contactMessage'] = <<<TEXT
 <b>Travel Agent:</b> Sue Fearon<br>
 T: 613-226-1422<br>
 F: 613-226-1428<br>
-E: sue.fearon@travelthomascook.ca<br><br>
+E: <a href="mailto: sue.fearon@travelthomascook.ca">sue.fearon@travelthomascook.ca</a><br><br>
 <b>Dave &amp; Polina</b><br>
 T (Dave): 613-889-1995<br>
 T (Polina): 819-328-0925<br>

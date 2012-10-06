@@ -2,6 +2,7 @@
 // =========================================================
 // Generic
 // =========================================================
+$langs['language'] = 'it';
 $langs['title'] = <<<TEXT
 Venite per il sole, Soggiorno per il nostro matrimonio
 TEXT;
@@ -56,11 +57,11 @@ Il Viaggio
 TEXT;
 
 $langs['travelMessage'] = <<<TEXT
-<b>Date:</b> 2 giugno 2013 - 9 giugno 2013<br><br>
-<b>Partenza:</b> Ottawa, ON, Canada Macdonald-Cartier International Airport<br><br>
-<b>Destinazione:</b> Couples Sans Souci, Ocho Rios, Giamaica<br><br>
-<b>Agente di Viaggio:</b> Sue Fearon<br><br>
-<b>Itinerario:</b> Clicca qui<br><br>
+<b>Date:</b> 2 giugno 2013 - 9 giugno 2013<br>
+<b>Partenza:</b> Ottawa, ON, Canada Macdonald-Cartier International Airport<br>
+<b>Destinazione:</b> Couples Sans Souci, Ocho Rios, Giamaica<br>
+<b>Agente di Viaggio:</b> Sue Fearon<br>
+<b>Itinerario:</b> Clicca qui
 TEXT;
 
 // =========================================================
@@ -112,7 +113,7 @@ $langs['contactMessage'] = <<<TEXT
 <b>Agente di Viaggio:</b> Sue Fearon<br>
 T: 613-226-1422<br>
 F: 613-226-1428<br>
-E: sue.fearon@travelthomascook.ca<br><br>
+E: <a href="mailto: sue.fearon@travelthomascook.ca">sue.fearon@travelthomascook.ca</a><br><br>
 <b>Dave &amp; Polina</b><br>
 T (Dave): 613-889-1995<br>
 T (Polina): 819-328-0925<br>

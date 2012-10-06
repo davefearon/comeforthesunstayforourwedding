@@ -2,6 +2,7 @@
 // =========================================================
 // Generic
 // =========================================================
+$langs['language'] = 'ru';
 $langs['title'] = <<<TEXT
 Приходите на солнце, пребывание на нашей свадьбе
 TEXT;
@@ -56,14 +57,10 @@ $langs['travelTitle'] = <<<TEXT
 TEXT;
 
 $langs['travelMessage'] = <<<TEXT
-<b>Даты:</b> 2 июня 2013 - 9 июня 2013<br><br>
-
-<b>Отъезд:</b> Оттава, Онтарио,  Международный аэропорт Macdonald-Cartier<br><br>
-
-<b>Место назначения:</b> Couples Sans Souci, Очо-Риос, Ямайка<br><br>
-
-<b>Турагент:</b> Sue Fearon<br><br>
-
+<b>Даты:</b> 2 июня 2013 - 9 июня 2013<br>
+<b>Отъезд:</b> Оттава, Онтарио,  Международный аэропорт Macdonald-Cartier<br>
+<b>Место назначения:</b> Couples Sans Souci, Очо-Риос, Ямайка<br>
+<b>Турагент:</b> Sue Fearon<br>
 <b>Маршрут:</b> Кликните здесь
 TEXT;
 
@@ -122,7 +119,7 @@ $langs['contactMessage'] = <<<TEXT
 <b>Турагент:</b> Sue Fearon<br>
 T: 613-226-1422<br>
 Ф: 613-226-1428<br>
-Э: sue.fearon@travelthomascook.ca<br><br>
+Э: <a href="mailto: sue.fearon@travelthomascook.ca">sue.fearon@travelthomascook.ca</a><br><br>
 <b>Дэйв &amp; Полина</b><br>
 T (Dave): 613-889-1995<br>
 T (Polina): 819-328-0925<br>

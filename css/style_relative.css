@@ -124,3 +124,26 @@ b {
 	left: 10px;
 	z-index:9999;
 }
+
+section {
+  width: 1020px;
+  height: 1000px;
+  position: relative;
+  overflow: hidden;
+}
+
+section#ourstory {
+  height: 2100px;
+}
+section#travel {
+  height: 3250px;
+}
+section#destination {
+  height: 3150px;
+}
+section#gifts {
+  height: 2900px;
+}
+section#contact {
+  height: 2000px;
+}
