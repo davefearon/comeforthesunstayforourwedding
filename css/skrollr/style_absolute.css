@@ -32,6 +32,8 @@
 }
 
 html, body {
+  /* background: url('../img/lightpaperfibers.png') repeat fixed 0 0;
+  /*background: rgb(255, 0, 128);*/
   color: black;
 	font: 18px/22px 'OpenSansCondensedLight', Arial, sans-serif;
 	font-size: 16px;
@@ -88,7 +90,7 @@ b {
 	margin-right: 20px;
 }
 #header {
-	
+	z-index: 9999;
 }
 #main {
   position: relative;
@@ -114,4 +116,11 @@ b {
 	border-bottom: 1px solid #0eacb9;
 	font-family: 'alluraregular', serif;
 	padding-bottom: 8px;
+}
+
+#scrollPos {
+	position: fixed;
+	top: 150px;
+	left: 10px;
+	z-index:9999;
 }
