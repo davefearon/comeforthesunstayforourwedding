@@ -82,7 +82,7 @@ TEXT;
 
 $langs['destinationMessage'] = <<<TEXT
 <div class="column left">
-  <p><b>Dove:</b><br>Couples Sans Souci, Ocho Rios, Giamaica</p>
+  <p><b>Dove:</b><br><a href="http://couples.com/sans-souci/" target="_blank">Couples Sans Souci, Ocho Rios, Giamaica</a></p>
   <p><b>Quando:</b><br><span class="orange">1 aprile, 2013:</span> ultimo giorno per il pagamento del biglietto</p>
   <p><span class="orange">2 giugno, 2013:</span> Partenza per Ocho Rios</p>
   <p><span class="orange">6 giugno, 2013 @ 16:00:</span> il matrimonio</p>
