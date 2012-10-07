@@ -7,19 +7,22 @@
 	<meta name="MobileOptimized" content="800">
 	<meta name="viewport" content="width=800, initial-scale=1">
 	<meta http-equiv="cleartype" content="on">
-	
 	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/touch/apple-touch-icon-144x144-precomposed.png">
 	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/touch/apple-touch-icon-114x114-precomposed.png">
 	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/touch/apple-touch-icon-72x72-precomposed.png">
 	<link rel="apple-touch-icon-precomposed" href="img/touch/apple-touch-icon-57x57-precomposed.png">
 	<link rel="shortcut icon" href="img/touch/apple-touch-icon.png">
-	
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="purple">
 	<meta name="apple-mobile-web-app-title" content="{{{brand}}}">
 	<meta name="description" content="{{{metaDescription}}}">
 	<meta name="author" content="{{{metaAuthor}}}">
-	<!-- Le styles -->
+	<meta property="og:title" content="{{title}}"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:image" content="http://comeforthesunstayforourwedding.com/img/bgs/bg_section_welcome.jpg"/>
+	<meta property="og:url" content="http://comeforthesunstayforourwedding.com"/>
+	<meta property="og:site_name" content="{{title}}"/>
+	<meta property="og:admins" content="90408241,503843067"/>
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<!-- <link href="css/bootstrap-responsive.min.css" rel="stylesheet"> -->
 	<link href="css/style.css" rel="stylesheet">
