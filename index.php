@@ -7,7 +7,7 @@ $app = new \Slim\Slim(array(
   'view' => new \Slim\Extras\Views\Mustache()
 ));
 
-$availableLangs = array('en','it','ru');
+$availableLangs = array('en','it');
 
 /**
  * Step 3: Define the Slim application routes
@@ -24,12 +24,10 @@ $app->get('/', function ($lang = 'en') use ($app, $langs, $availableLangs) {
   $userLang = $req->headers('HTTP_ACCEPT_LANGUAGE');
   $userLang = substr($userLang,0,2);
   if( in_array($userLang, $availableLangs) ) {
-    require "langs/$userLang.php";
-  } else {
-    require "langs/en.php";
+    $lang = $userLang;
   }
   
-  $app->render('0.2.php', $langs);
+  $app->redirect('/'.$lang);
 });
 
 $app->get('/:lang', function($lang) use ($app, $langs, $availableLangs) {

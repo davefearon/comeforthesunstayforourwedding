@@ -1,96 +1,126 @@
 <!DOCTYPE html>
 <html lang="{{{language}}}">
 <head>
-	<meta charset="utf-8">
+  <meta charset="utf-8">
 	<title>{{title}}</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author" content="">
-	
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="800">
+	<meta name="viewport" content="width=800, initial-scale=1">
+	<meta http-equiv="cleartype" content="on">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="purple">
+	<meta name="apple-mobile-web-app-title" content="{{{brand}}}">
+        
+	<meta name="description" content="{{{metaDescription}}}">
+	<meta name="author" content="{{{metaAuthor}}}">
 	<!-- Le styles -->
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<link href="css/bootstrap-responsive.css" rel="stylesheet">
-	<!-- <link href="css/skrollr.css" rel="stylesheet"> -->
 	<link href="css/style.css" rel="stylesheet">
 	<script type="text/javascript" src="js/modernizr.js"></script>
+	<script type="text/javascript">
+	  window.onload = function() {
+	    if( window.location.hash !== '' ) {
+	      var page = window.location.hash;
+		    page = page.substring(1);
+	    }
+  	  var viewport = document.getElementsByName('viewport')[0];
+  	  viewport.content = 'width=800, initial-scale=' + Math.round( (window.innerWidth / 800) * 100 ) / 100;
+	  };
+	</script>
 </head>
 <body>
-	
-	<div class="container">
-	
+  <span id="top"></span>
+
+  <div class="container">
+    <div class="flags">
+      <div class="pull-right">
+        <a href="/en"><img src="img/extras/flags/ca.png" /></a>
+        <a href="/it"><img src="img/extras/flags/it.png" /></a>
+        <!-- <a href="/ru"><img src="img/extras/flags/ru.png" /></a> -->
+      </div>
+    </div>
+    
     <header id="header">
-      <a class="brand" href="#">{{{brand}}}</a>
-      
       <div class="navbar">
         <div class="navbar-inner">
-    		  <div class="container">
-    		    <ul class="nav">
-    				  <li><a class="navlink" id="1000" href="#ourstory">{{{nav_OurStory}}}</a></li>
-    				  <li><a class="navlink" id="3100" href="#travel">{{{nav_Travel}}}</a></li>
-    				  <li><a class="navlink" id="6350" href="#destination">{{{nav_Destination}}}</a></li>
-    				  <li><a class="navlink" id="9500" href="#gifts">{{{nav_Gifts}}}</a></li>
-    				  <li><a class="navlink" id="12400" href="#contact">{{{nav_Contact}}}</a></li>
-    				</ul>
-    				<ul class="nav pull-right">
-    				  <li><a href="/en"><img src="img/flags/ca.png" /></a></li>
-    				  <li><a href="/it"><img src="img/flags/it.png" /></a></li>
-    				  <li><a href="/ru"><img src="img/flags/ru.png" /></a></li>
-    				</ul>
-    			</div>
-    		</div>
-    	</div>
+          <ul class="nav">
+            <li><a class="navlink" id="1000" href="#ourstory">{{{nav_OurStory}}}</a></li>
+            <li><a class="navlink" id="3100" href="#travel">{{{nav_Travel}}}</a></li>
+            <li><a class="navlink" id="6350" href="#destination">{{{nav_Destination}}}</a></li>
+            <li><a class="navlink" id="9500" href="#gifts">{{{nav_Gifts}}}</a></li>
+            <li><a class="navlink" id="12400" href="#contact">{{{nav_Contact}}}</a></li>
+          </ul>
+        </div>
+      </div>
     </header>
 		
 		<div id="main" role="main">
-			
-			<section id="welcome">
+		
+		  <section id="welcome">
+		    <!--
  			  <p>
 			    {{{welcomeMessage}}}
 			  </p>
+			  -->
 			</section>
 			
 			<section id="ourstory">
+  			<div class="pageTitle">{{{ourstoryTitle}}}</div>
+  			
+  			<div class="toparrow"></div>
+  			
 			  <div class="copy">
-			    <p class="pageTitle">{{{ourstoryTitle}}}</p>
-			    <p>{{{ourstoryMessage}}}</p>
+			    {{{ourstoryMessage}}}
 			  </div>
 			</section>
 			
 			<section id="travel">
+  			<div class="pageTitle">{{{travelTitle}}}</div>
+  			
+  			<div class="toparrow"></div>
+  			
 			  <div class="copy">
-			    <p class="pageTitle">{{{travelTitle}}}</p>
-			    <p>{{{travelMessage}}}</p>
+			    {{{travelMessage}}}
 			  </div>
 			</section>
 			
 			<section id="destination">
+  			<div class="pageTitle">{{{destinationTitle}}}</div>
+  			
+  			<div class="toparrow"></div>
+  			
 			  <div class="copy">
-			    <p class="pageTitle">{{{destinationTitle}}}</p>
-			    <p>{{{destinationMessage}}}</p>
+			    {{{destinationMessage}}}
 			  </div>
 			</section>
 			
 			<section id="gifts">
+  			<div class="pageTitle">{{{giftsTitle}}}</div>
+  			
+  			<div class="toparrow"></div>
+  			
 			  <div class="copy">
-			    <p class="pageTitle">{{{giftsTitle}}}</p>
-			    <p>{{{giftsMessage}}}</p>
+			    {{{giftsMessage}}}
 			  </div>
 			</section>
 			
 			<section id="contact">
-        <div class="copy">
-			    <p class="pageTitle">{{{contactTitle}}}</p>
-			    <p>{{{contactMessage}}}</p>
+  			<div class="pageTitle">{{{contactTitle}}}</div>
+  			
+  			<div class="toparrow"></div>
+  			
+			  <div class="copy">
+			    {{{contactMessage}}}
 			  </div>
 			</section>
 			
 		</div> <!-- /main -->
-		<!--
-		<hr>
+		
 		<footer id="footer">
-			footer
+  		{{{footerMessage}}}
 		</footer>
-		-->
+
 	</div> <!-- /container -->
 
 	<!-- Le javascript
@@ -103,20 +133,19 @@
 		  $(window).bind('hashchange', function(){
 		    var page = window.location.hash;
 		    page = page.substring(1);
-		    //scrollToPage(page);
 		  });
 		  $('a.brand').click(function(event){
 		    event.preventDefault();
 		    scroll(0,0);
 		  });
+		  $('.toparrow').click(function(event){
+  		  event.preventDefault();
+  		  if( window.location.hash !== '' ) {
+  		    window.location.hash = '';
+  		  }
+		    scroll(0,0);
+		  });
 		});
-		window.onload = function() {
-  		if( window.location.hash !== '' ) {
-	      var page = window.location.hash;
-		    page = page.substring(1);
-		    //scrollToPage(page);
-	    }
-		}
 	</script>
 </body>
 </html>

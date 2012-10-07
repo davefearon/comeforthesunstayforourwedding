@@ -3,6 +3,11 @@
 // Generic
 // =========================================================
 $langs['language'] = 'ru';
+
+$langs['metaDescription'] = '';
+
+$langs['metaAuthor'] = 'Dave Fearon and Palina Klimava';
+
 $langs['title'] = <<<TEXT
 Приходите на солнце, пребывание на нашей свадьбе
 TEXT;
