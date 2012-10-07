@@ -83,9 +83,9 @@ TEXT;
 $langs['destinationMessage'] = <<<TEXT
 <div class="column left">
   <p><b>Where:</b><br>Couples Sans Souci, Ocho Rios, Jamaica</p>
-  <p><b>When:</b><br><span class="orange">April 1:</span> Final deadline for ticket payment</p>
-  <p><span class="orange">June 2:</span> Departure for Ocho Rios</p>
-  <p><span class="orange">June 6 @ 16:00:</span> Wedding day</p>
+  <p><b>When:</b><br><span class="orange">April 1, 2013:</span> Final deadline for ticket payment</p>
+  <p><span class="orange">June 2, 2013:</span> Departure for Ocho Rios</p>
+  <p><span class="orange">June 6, 2013 @ 16:00:</span> Wedding day</p>
   <p>Please contact Dave and Palina or Sue Fearon with any questions or concerns.</p>
   <p><a href="/pdfs/CouplesSansSouciPolinaDaveWedding.pdf" target="_blank"><b>Click here</b></a> to learn more about the hotel and the inclusions.</p>
 </div>
