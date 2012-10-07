@@ -7,6 +7,13 @@
 	<meta name="MobileOptimized" content="800">
 	<meta name="viewport" content="width=800, initial-scale=1">
 	<meta http-equiv="cleartype" content="on">
+	
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/touch/apple-touch-icon-144x144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/touch/apple-touch-icon-114x114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/touch/apple-touch-icon-72x72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" href="img/touch/apple-touch-icon-57x57-precomposed.png">
+	<link rel="shortcut icon" href="img/touch/apple-touch-icon.png">
+	
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="purple">
 	<meta name="apple-mobile-web-app-title" content="{{{brand}}}">
@@ -19,8 +26,7 @@
 	<script type="text/javascript" src="js/modernizr.js"></script>
 	<script type="text/javascript">
 	  window.onload = function() {
-	    var viewport = document.getElementsByName('viewport')[0];
-  	  viewport.content = 'width=800, initial-scale=' + Math.round( (window.innerWidth / 800) * 100 ) / 100;
+	    document.getElementsByName('viewport')[0].content = 'width=800, initial-scale=' + Math.round( (window.innerWidth / 800) * 100 ) / 100;
 	  }
 	</script>
 </head>
