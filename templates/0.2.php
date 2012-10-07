@@ -10,7 +10,6 @@
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="purple">
 	<meta name="apple-mobile-web-app-title" content="{{{brand}}}">
-        
 	<meta name="description" content="{{{metaDescription}}}">
 	<meta name="author" content="{{{metaAuthor}}}">
 	<!-- Le styles -->
@@ -20,13 +19,9 @@
 	<script type="text/javascript" src="js/modernizr.js"></script>
 	<script type="text/javascript">
 	  window.onload = function() {
-	    if( window.location.hash !== '' ) {
-	      var page = window.location.hash;
-		    page = page.substring(1);
-	    }
-  	  var viewport = document.getElementsByName('viewport')[0];
+	    var viewport = document.getElementsByName('viewport')[0];
   	  viewport.content = 'width=800, initial-scale=' + Math.round( (window.innerWidth / 800) * 100 ) / 100;
-	  };
+	  }
 	</script>
 </head>
 <body>
@@ -140,9 +135,7 @@
 		  });
 		  $('.toparrow').click(function(event){
   		  event.preventDefault();
-  		  if( window.location.hash !== '' ) {
-  		    window.location.hash = '';
-  		  }
+  		  if( window.location.hash !== '' ) window.location.hash = '';
 		    scroll(0,0);
 		  });
 		});
