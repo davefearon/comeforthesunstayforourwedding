@@ -35,6 +35,8 @@ $app->get('/:lang', function($lang) use ($app, $langs, $availableLangs) {
   require "langs/$lang.php";
   $req = $app->request();
   
+  $langs['server'] = ( preg_match("/(.dev)/i", $req->headers('HOST')) ) ? '.dev' : '.com';
+  
   $app->render('0.2.php', $langs);
 });
 

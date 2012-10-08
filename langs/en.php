@@ -116,7 +116,7 @@ TEXT;
 
 $langs['giftsMessage'] = <<<TEXT
 <p>We're really excited for everyone to come down for our wedding in Jamaica and seeing all of you there is the best gift of all!</p>
-<p>We did register at <a href="http://www2.thebay.com/giftregistry/EN/default.html" target="_blank"><b>The Bay</b></a> and at <a href="http://www.zonemaison.com/gifts_and_weddings?lang=en" target="_blank"><b>Zone Maison</b></a> (the Ottawa location), in case you feel that you simply must get us something but please remember that <b>gifts are not necessary!</b></p>
+<p>We did register at <a href="http://www2.thebay.com/giftregistry/EN/default.html" target="_blank"><b>The Bay</b></a> and at <a href="http://www.zonemaison.com/gifts_and_weddings?lang=en" target="_blank"><b>Zone Maison</b></a> (the Ottawa location), the registries are under "Palina Klimava" at both stores. The Registry Number at the Bay is 400107405874. However, please remember that <b>gifts are not necessary!</b></p>
 <p>Thank you!</p>
 TEXT;
 
