@@ -70,7 +70,7 @@ $langs['travelMessage'] = <<<TEXT
 <p><b>Partenza:</b> Ottawa, ON, Canada Macdonald-Cartier International Airport</p>
 <p><b>Destinazione:</b> Couples Sans Souci, Ocho Rios, Giamaica</p>
 <p><b>Agente di Viaggio:</b> Sue Fearon</p>
-<p><b>Itinerario:</b> <a href="/pdfs/ItineraryPalinaDaveWedding.pdf" target="_blank"><b>Clicca qui</b></a></p>
+<p><b>Itinerario:</b> <a href="http://static.comeforthesunstayforourwedding.com/pdfs/ItineraryPalinaDaveWedding.pdf" target="_blank"><b>Clicca qui</b></a></p>
 TEXT;
 
 // =========================================================
@@ -87,7 +87,7 @@ $langs['destinationMessage'] = <<<TEXT
   <p><span class="orange">2 giugno, 2013:</span> Partenza per Ocho Rios</p>
   <p><span class="orange">6 giugno, 2013 @ 16:00:</span> il matrimonio</p>
   <p>Vi preghiamo di contattarci (Polina e Dave, o Sue Fearon) con qualsiasi domanda.</p>
-  <p><a href="/pdfs/CouplesSansSouciPolinaDaveWedding.pdf" target="_blank"><b>Clicca qui</b></a> per pinformazioni su l'albergo e le inclusioni.</p>
+  <p><a href="http://static.comeforthesunstayforourwedding.com/pdfs/CouplesSansSouciPolinaDaveWedding.pdf" target="_blank"><b>Clicca qui</b></a> per pinformazioni su l'albergo e le inclusioni.</p>
 </div>
 
 <div class="column right">

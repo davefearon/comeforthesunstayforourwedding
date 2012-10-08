@@ -7,11 +7,11 @@
 	<meta name="MobileOptimized" content="800">
 	<meta name="viewport" content="width=800, initial-scale=1">
 	<meta http-equiv="cleartype" content="on">
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/touch/apple-touch-icon-144x144-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/touch/apple-touch-icon-114x114-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/touch/apple-touch-icon-72x72-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" href="img/touch/apple-touch-icon-57x57-precomposed.png">
-	<link rel="shortcut icon" href="img/touch/apple-touch-icon.png">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="//static.comeforthesunstayforourwedding.com/img/touch/apple-touch-icon-144x144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="//static.comeforthesunstayforourwedding.com/img/touch/apple-touch-icon-114x114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="//static.comeforthesunstayforourwedding.com/img/touch/apple-touch-icon-72x72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" href="//static.comeforthesunstayforourwedding.com/img/touch/apple-touch-icon-57x57-precomposed.png">
+	<link rel="shortcut icon" href="//static.comeforthesunstayforourwedding.com/img/touch/apple-touch-icon.png">
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="purple">
 	<meta name="apple-mobile-web-app-title" content="{{{brand}}}">
@@ -19,14 +19,14 @@
 	<meta name="author" content="{{{metaAuthor}}}">
 	<meta property="og:title" content="{{title}}"/>
 	<meta property="og:type" content="website"/>
-	<meta property="og:image" content="http://comeforthesunstayforourwedding.com/img/bgs/bg_section_welcome.jpg"/>
+	<meta property="og:image" content="http://static.comeforthesunstayforourwedding.com/img/bgs/bg_section_welcome.jpg"/>
 	<meta property="og:url" content="http://comeforthesunstayforourwedding.com"/>
 	<meta property="og:site_name" content="{{title}}"/>
 	<meta property="og:admins" content="90408241,503843067"/>
-	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="//static.comeforthesunstayforourwedding.com/css/bootstrap.min.css" rel="stylesheet">
 	<!-- <link href="css/bootstrap-responsive.min.css" rel="stylesheet"> -->
-	<link href="css/style.css" rel="stylesheet">
-	<script type="text/javascript" src="js/modernizr.js"></script>
+	<link href="//static.comeforthesunstayforourwedding.com/css/style.css" rel="stylesheet">
+	<script type="text/javascript" src="//static.comeforthesunstayforourwedding.com/js/modernizr.js"></script>
 	<script type="text/javascript">
 	  window.onload = function() {
 	    document.getElementsByName('viewport')[0].content = 'width=800, initial-scale=' + Math.round( (window.innerWidth / 800) * 100 ) / 100;
@@ -39,8 +39,8 @@
   <div class="container">
     <div class="flags">
       <div class="pull-right">
-        <a href="/en"><img src="img/extras/flags/ca.png" /></a>
-        <a href="/it"><img src="img/extras/flags/it.png" /></a>
+        <a href="/en"><img src="//static.comeforthesunstayforourwedding.com/img/extras/flags/ca.png" /></a>
+        <a href="/it"><img src="//static.comeforthesunstayforourwedding.com/img/extras/flags/it.png" /></a>
         <!-- <a href="/ru"><img src="img/extras/flags/ru.png" /></a> -->
       </div>
     </div>
@@ -70,6 +70,7 @@
 			</section>
 			
 			<section id="ourstory">
+			  <div class="bg"></div>
   			<div class="pageTitle">{{{ourstoryTitle}}}</div>
   			
   			<div class="toparrow"></div>
@@ -80,6 +81,7 @@
 			</section>
 			
 			<section id="travel">
+			  <div class="bg"></div>
   			<div class="pageTitle">{{{travelTitle}}}</div>
   			
   			<div class="toparrow"></div>
@@ -90,6 +92,7 @@
 			</section>
 			
 			<section id="destination">
+			  <div class="bg"></div>
   			<div class="pageTitle">{{{destinationTitle}}}</div>
   			
   			<div class="toparrow"></div>
@@ -100,6 +103,7 @@
 			</section>
 			
 			<section id="gifts">
+			  <div class="bg"></div>
   			<div class="pageTitle">{{{giftsTitle}}}</div>
   			
   			<div class="toparrow"></div>
@@ -110,6 +114,7 @@
 			</section>
 			
 			<section id="contact">
+			  <div class="bg"></div>
   			<div class="pageTitle">{{{contactTitle}}}</div>
   			
   			<div class="toparrow"></div>
@@ -130,8 +135,8 @@
 	<!-- Le javascript
 	================================================== -->
 	<!-- Placed at the end of the document so the pages load faster -->
-	<script src="js/jquery.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+	<script src="//static.comeforthesunstayforourwedding.com/js/jquery.js"></script>
+	<script src="//static.comeforthesunstayforourwedding.com/js/bootstrap.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
 		  $(window).bind('hashchange', function(){

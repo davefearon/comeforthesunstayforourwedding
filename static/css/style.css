@@ -72,7 +72,7 @@ body {
 }
 
 #header {
-  background-image: url('../img/bgs/bg_header.png');
+  background-image: url('../img/bgs/bg_header_footer.png');
   background-repeat: no-repeat;
   background-position: 50% 0;
   height: 168px;
@@ -134,46 +134,81 @@ section {
 }
 section#welcome {
   background-color: transparent;
-  background-image: url('../img/bgs/bg_section_welcome.jpg');
+  background-image: url('../img/bgs/bg_sections.jpg');
   background-repeat: no-repeat;
   background-position: 50% 0;
   height: 457px;
   margin-top: -40px;
 }
 section#ourstory {
-  background-color: transparent;
-  background-image: url('../img/bgs/bg_section_ourstory.jpg');
-  background-repeat: no-repeat;
-  background-position: 50% 0;
   min-height: 505px;
+}
+section#ourstory .bg {
+  background-color: transparent;
+  background-image: url('../img/bgs/bg_sections.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% -467px;
+  height: 505px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 section#travel {
-  background-color: transparent;
-  background-image: url('../img/bgs/bg_section_travel.jpg');
-  background-repeat: no-repeat;
-  background-position: 50% 0;
   min-height: 505px;
+}
+section#travel .bg {
+  background-color: transparent;
+  background-image: url('../img/bgs/bg_sections.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% -982px;
+  height: 505px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 section#destination {
-  background-color: transparent;
-  background-image: url('../img/bgs/bg_section_destination.jpg');
-  background-repeat: no-repeat;
-  background-position: 50% 0;
   min-height: 505px;
+}
+section#destination .bg {
+  background-color: transparent;
+  background-image: url('../img/bgs/bg_sections.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% -1497px;
+  height: 505px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 section#gifts {
-  background-color: transparent;
-  background-image: url('../img/bgs/bg_section_gifts.jpg');
-  background-repeat: no-repeat;
-  background-position: 50% 0;
   min-height: 505px;
 }
-section#contact {
+section#gifts .bg {
   background-color: transparent;
-  background-image: url('../img/bgs/bg_section_contact.jpg');
+  background-image: url('../img/bgs/bg_sections.jpg');
   background-repeat: no-repeat;
-  background-position: 50% 0;
+  background-position: 50% -2012px;
+  height: 505px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+section#contact {
   min-height: 505px;
+}
+section#contact .bg {
+  background-color: transparent;
+  background-image: url('../img/bgs/bg_sections.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% -2527px;
+  height: 505px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .pageTitle {
@@ -184,6 +219,7 @@ section#contact {
 	font-family: 'alluraregular', serif;
 	padding-top: 55px;
 	/* padding-bottom: 400px; */
+	position: relative;
 }
 #ourstory .pageTitle {
   color: #55d2fa;
@@ -271,9 +307,9 @@ b {
 
 #footer {
   background-color: transparent;
-  background-image: url('../img/bgs/bg_footer.png');
+  background-image: url('../img/bgs/bg_header_footer.png');
   background-repeat: no-repeat;
-  background-position: 50% 0;
+  background-position: 50% -178px;
   width: 100%;
   height: 65px;
 }
