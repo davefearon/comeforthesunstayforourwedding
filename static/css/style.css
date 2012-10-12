@@ -95,7 +95,7 @@ body {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
-  filter: progid:dximagetransform.microsoft.gradient(startColorstr='transparent', endColorstr='transparent', GradientType=0);
+  filter:;
   -webkit-box-shadow: 0 0 0 rgba(255,255,255,0);
   -moz-box-shadow: 0 0 0 rgba(255,255,255,0);
   box-shadow: 0 0 0 rgba(255,255,255,0);
