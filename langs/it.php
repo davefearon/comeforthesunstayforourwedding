@@ -116,7 +116,7 @@ TEXT;
 
 $langs['giftsMessage'] = <<<TEXT
 <p>Siamo veramente contenti con la possibilita di veder'vi al nostro matrimonio a Giamaica. La vostra presenza sarà il regalo più bello!</p>
-<p>Abbiamo registrato per i regali al <a href="http://www2.thebay.com/giftregistry/EN/default.html" target="_blank"><b>The Bay</b></a> e il <a href="http://www.zonemaison.com/gifts_and_weddings?lang=en" target="_blank"><b>Zone Maison</b></a> a Ottawa, ma <b>i regali non sono necessari!</b></p>
+<p>Ci siamo registrati per i regali a <a href="http://www2.thebay.com/giftregistry/EN/default.html" target="_blank"><b>The Bay</b></a> e il <a href="http://www.zonemaison.com/gifts_and_weddings?lang=en" target="_blank"><b>Zone Maison</b></a> a Ottawa, ma <b>i regali non sono necessari!</b></p>
 <p>Grazie!</p>
 TEXT;
 
