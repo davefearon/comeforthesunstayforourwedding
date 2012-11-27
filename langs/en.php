@@ -140,8 +140,8 @@ $langs['contactMessage'] = <<<TEXT
 <div class="column right">
   <p>
     <b>Dave &amp; Palina</b><br>
-    <span><b>T (Dave):</b></span> 613-889-1995<br>
-    <span><b>T (Palina):</b></span> 819-328-0925<br>
+    <span><b>T (Dave):</b></span> 415-519-4363 <!-- 613-889-1995 --><br>
+    <span><b>T (Palina):</b></span> 415-519-4752 <!-- 819-328-0925 --><br>
     <span><b>E:</b></span> <a href="mailto: comeforthesunstayforourwedding@gmail.com">comeforthesunstayforourwedding@gmail.com</a>
   </p>
 </div>

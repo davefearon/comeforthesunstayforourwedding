@@ -126,7 +126,7 @@ T: 613-226-1422<br>
 Ф: 613-226-1428<br>
 Э: <a href="mailto: sue.fearon@travelthomascook.ca">sue.fearon@travelthomascook.ca</a><br><br>
 <b>Дэйв &amp; Полина</b><br>
-T (Dave): 613-889-1995<br>
-T (Polina): 819-328-0925<br>
+<span><b>T (Dave):</b></span> 415-519-4363 <!-- 613-889-1995 --><br>
+    <span><b>T (Palina):</b></span> 415-519-4752 <!-- 819-328-0925 --><br>
 Э: <a href="mailto: comeforthesubstayforourwedding@gmail.com">comeforthesubstayforourwedding@gmail.com</a>
 TEXT;
