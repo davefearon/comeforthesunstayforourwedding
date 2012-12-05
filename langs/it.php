@@ -133,7 +133,7 @@ $langs['contactMessage'] = <<<TEXT
     <b>Agente di Viaggio:</b> Sue Fearon<br>
     <span><b>T:</b></span> 613-226-1422<br>
     <span><b>F:</b></span> 613-226-1428<br>
-    <span><b>E:</b></span> <a href="mailto: sue.fearon@travelthomascook.ca">sue.fearon@travelthomascook.ca</a>
+    <span><b>E:</b></span> <a href="mailto: Sue.Fearon@travelplus.ca">Sue.Fearon@travelplus.ca</a>
   </p>
 </div>
 

@@ -124,7 +124,7 @@ $langs['contactMessage'] = <<<TEXT
 <b>Турагент:</b> Sue Fearon<br>
 T: 613-226-1422<br>
 Ф: 613-226-1428<br>
-Э: <a href="mailto: sue.fearon@travelthomascook.ca">sue.fearon@travelthomascook.ca</a><br><br>
+Э: <a href="mailto: Sue.Fearon@travelplus.ca">Sue.Fearon@travelplus.ca</a><br><br>
 <b>Дэйв &amp; Полина</b><br>
 <span><b>T (Dave):</b></span> 415-519-4363 <!-- 613-889-1995 --><br>
     <span><b>T (Palina):</b></span> 415-519-4752 <!-- 819-328-0925 --><br>
